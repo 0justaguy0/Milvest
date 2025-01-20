@@ -417,7 +417,7 @@ body {
     background-color: #ffffff00;
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
-    animation: noise-before 0.1s infinite linear alternate-reverse;
+    animation: noise-before 1s infinite linear alternate-reverse;
  }
  
  .glitch:after {
