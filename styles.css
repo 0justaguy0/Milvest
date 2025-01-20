@@ -410,8 +410,8 @@ body {
  .glitch:before {
     content: attr(data-glitch);
     position: absolute;
-    top: -2px;
-    left: -4px;
+    top: -5px;
+    left: -20px;
     width: 100%;
     color: #000000;
     background-color: #ffffff00;
@@ -423,8 +423,8 @@ body {
  .glitch:after {
     content: attr(data-glitch);
     position: absolute;
-    top: 2px;
-    left: 3px;
+    top: 5px;
+    left: 20px;
     width: 100%;
     color: #000000;
     background-color: #ffffff00;
