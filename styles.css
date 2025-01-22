@@ -105,6 +105,7 @@ body {
     -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(3px);
     border: 1px solid rgba(204,222,246,0.25);
+    overflow: hidden;
 }
 
 .hero h1 {
@@ -644,3 +645,19 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: right;
  }
+ .text-container span {
+    display: inline-block;
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+    /* transition: opacity 3s, transform 0.35s; */
+  }
+
+  .text-container span.animated {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  /* Initially hide the second text container */
+  #text-container-2 {
+    opacity: 0;
+  }
